@@ -1,0 +1,38 @@
+[
+{
+  "directory": "D:/2.work/4_education/1_C/5_c_command_parser/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/5_c_command_parser/include -g -std=gnu99 -o CMakeFiles\\command_parser_example.dir\\examples\\main.c.obj -c D:\\2.work\\4_education\\1_C\\5_c_command_parser\\examples\\main.c",
+  "file": "D:/2.work/4_education/1_C/5_c_command_parser/examples/main.c",
+  "output": "D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/command_parser_example.dir/examples/main.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/5_c_command_parser/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/5_c_command_parser/include -g -std=gnu99 -o CMakeFiles\\command_parser_example.dir\\src\\command_parser.c.obj -c D:\\2.work\\4_education\\1_C\\5_c_command_parser\\src\\command_parser.c",
+  "file": "D:/2.work/4_education/1_C/5_c_command_parser/src/command_parser.c",
+  "output": "D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/command_parser_example.dir/src/command_parser.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/5_c_command_parser/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/5_c_command_parser/include -g -std=gnu99 -o CMakeFiles\\command_parser_example.dir\\src\\device_state.c.obj -c D:\\2.work\\4_education\\1_C\\5_c_command_parser\\src\\device_state.c",
+  "file": "D:/2.work/4_education/1_C/5_c_command_parser/src/device_state.c",
+  "output": "D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/command_parser_example.dir/src/device_state.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/5_c_command_parser/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/5_c_command_parser/include -g -std=gnu99 -o CMakeFiles\\test_command_parser.dir\\tests\\test_command_parser.c.obj -c D:\\2.work\\4_education\\1_C\\5_c_command_parser\\tests\\test_command_parser.c",
+  "file": "D:/2.work/4_education/1_C/5_c_command_parser/tests/test_command_parser.c",
+  "output": "D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/test_command_parser.dir/tests/test_command_parser.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/5_c_command_parser/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/5_c_command_parser/include -g -std=gnu99 -o CMakeFiles\\test_command_parser.dir\\src\\command_parser.c.obj -c D:\\2.work\\4_education\\1_C\\5_c_command_parser\\src\\command_parser.c",
+  "file": "D:/2.work/4_education/1_C/5_c_command_parser/src/command_parser.c",
+  "output": "D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/test_command_parser.dir/src/command_parser.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/5_c_command_parser/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/5_c_command_parser/include -g -std=gnu99 -o CMakeFiles\\test_command_parser.dir\\src\\device_state.c.obj -c D:\\2.work\\4_education\\1_C\\5_c_command_parser\\src\\device_state.c",
+  "file": "D:/2.work/4_education/1_C/5_c_command_parser/src/device_state.c",
+  "output": "D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/test_command_parser.dir/src/device_state.c.obj"
+}
+]

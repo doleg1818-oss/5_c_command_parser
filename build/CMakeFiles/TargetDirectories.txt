@@ -1,0 +1,4 @@
+D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/command_parser_example.dir
+D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/test_command_parser.dir
+D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/edit_cache.dir
+D:/2.work/4_education/1_C/5_c_command_parser/build/CMakeFiles/rebuild_cache.dir
