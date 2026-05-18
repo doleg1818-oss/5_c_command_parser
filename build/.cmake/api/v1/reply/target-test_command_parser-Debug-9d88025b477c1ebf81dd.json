@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -58,6 +58,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "D:/2.work/4_education/1_C/5_c_command_parser/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/2.work/4_education/1_C/5_c_command_parser/device_action"
 				}
 			],
 			"language" : "C",
@@ -73,7 +77,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -108,7 +113,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -130,6 +136,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/device_state.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "device_action/device_action.c",
 			"sourceGroupIndex" : 0
 		}
 	],

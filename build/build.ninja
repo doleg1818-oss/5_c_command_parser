@@ -53,7 +53,7 @@ build CMakeFiles/command_parser_example.dir/examples/main.c.obj: C_COMPILER__com
   CONFIG = Debug
   DEP_FILE = CMakeFiles\command_parser_example.dir\examples\main.c.obj.d
   FLAGS = -g -std=gnu99
-  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include
+  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include -ID:/2.work/4_education/1_C/5_c_command_parser/device_action
   OBJECT_DIR = CMakeFiles\command_parser_example.dir
   OBJECT_FILE_DIR = CMakeFiles\command_parser_example.dir\examples
   TARGET_SUPPORT_DIR = CMakeFiles\command_parser_example.dir
@@ -62,7 +62,7 @@ build CMakeFiles/command_parser_example.dir/src/command_parser.c.obj: C_COMPILER
   CONFIG = Debug
   DEP_FILE = CMakeFiles\command_parser_example.dir\src\command_parser.c.obj.d
   FLAGS = -g -std=gnu99
-  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include
+  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include -ID:/2.work/4_education/1_C/5_c_command_parser/device_action
   OBJECT_DIR = CMakeFiles\command_parser_example.dir
   OBJECT_FILE_DIR = CMakeFiles\command_parser_example.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\command_parser_example.dir
@@ -71,9 +71,18 @@ build CMakeFiles/command_parser_example.dir/src/device_state.c.obj: C_COMPILER__
   CONFIG = Debug
   DEP_FILE = CMakeFiles\command_parser_example.dir\src\device_state.c.obj.d
   FLAGS = -g -std=gnu99
-  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include
+  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include -ID:/2.work/4_education/1_C/5_c_command_parser/device_action
   OBJECT_DIR = CMakeFiles\command_parser_example.dir
   OBJECT_FILE_DIR = CMakeFiles\command_parser_example.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\command_parser_example.dir
+
+build CMakeFiles/command_parser_example.dir/device_action/device_action.c.obj: C_COMPILER__command_parser_example_unscanned_Debug D$:/2.work/4_education/1_C/5_c_command_parser/device_action/device_action.c || cmake_object_order_depends_target_command_parser_example
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\command_parser_example.dir\device_action\device_action.c.obj.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include -ID:/2.work/4_education/1_C/5_c_command_parser/device_action
+  OBJECT_DIR = CMakeFiles\command_parser_example.dir
+  OBJECT_FILE_DIR = CMakeFiles\command_parser_example.dir\device_action
   TARGET_SUPPORT_DIR = CMakeFiles\command_parser_example.dir
 
 
@@ -84,7 +93,7 @@ build CMakeFiles/command_parser_example.dir/src/device_state.c.obj: C_COMPILER__
 #############################################
 # Link the executable command_parser_example.exe
 
-build command_parser_example.exe: C_EXECUTABLE_LINKER__command_parser_example_Debug CMakeFiles/command_parser_example.dir/examples/main.c.obj CMakeFiles/command_parser_example.dir/src/command_parser.c.obj CMakeFiles/command_parser_example.dir/src/device_state.c.obj
+build command_parser_example.exe: C_EXECUTABLE_LINKER__command_parser_example_Debug CMakeFiles/command_parser_example.dir/examples/main.c.obj CMakeFiles/command_parser_example.dir/src/command_parser.c.obj CMakeFiles/command_parser_example.dir/src/device_state.c.obj CMakeFiles/command_parser_example.dir/device_action/device_action.c.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -109,7 +118,7 @@ build CMakeFiles/test_command_parser.dir/tests/test_command_parser.c.obj: C_COMP
   CONFIG = Debug
   DEP_FILE = CMakeFiles\test_command_parser.dir\tests\test_command_parser.c.obj.d
   FLAGS = -g -std=gnu99
-  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include
+  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include -ID:/2.work/4_education/1_C/5_c_command_parser/device_action
   OBJECT_DIR = CMakeFiles\test_command_parser.dir
   OBJECT_FILE_DIR = CMakeFiles\test_command_parser.dir\tests
   TARGET_SUPPORT_DIR = CMakeFiles\test_command_parser.dir
@@ -118,7 +127,7 @@ build CMakeFiles/test_command_parser.dir/src/command_parser.c.obj: C_COMPILER__t
   CONFIG = Debug
   DEP_FILE = CMakeFiles\test_command_parser.dir\src\command_parser.c.obj.d
   FLAGS = -g -std=gnu99
-  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include
+  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include -ID:/2.work/4_education/1_C/5_c_command_parser/device_action
   OBJECT_DIR = CMakeFiles\test_command_parser.dir
   OBJECT_FILE_DIR = CMakeFiles\test_command_parser.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\test_command_parser.dir
@@ -127,9 +136,18 @@ build CMakeFiles/test_command_parser.dir/src/device_state.c.obj: C_COMPILER__tes
   CONFIG = Debug
   DEP_FILE = CMakeFiles\test_command_parser.dir\src\device_state.c.obj.d
   FLAGS = -g -std=gnu99
-  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include
+  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include -ID:/2.work/4_education/1_C/5_c_command_parser/device_action
   OBJECT_DIR = CMakeFiles\test_command_parser.dir
   OBJECT_FILE_DIR = CMakeFiles\test_command_parser.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\test_command_parser.dir
+
+build CMakeFiles/test_command_parser.dir/device_action/device_action.c.obj: C_COMPILER__test_command_parser_unscanned_Debug D$:/2.work/4_education/1_C/5_c_command_parser/device_action/device_action.c || cmake_object_order_depends_target_test_command_parser
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\test_command_parser.dir\device_action\device_action.c.obj.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -ID:/2.work/4_education/1_C/5_c_command_parser/include -ID:/2.work/4_education/1_C/5_c_command_parser/device_action
+  OBJECT_DIR = CMakeFiles\test_command_parser.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_command_parser.dir\device_action
   TARGET_SUPPORT_DIR = CMakeFiles\test_command_parser.dir
 
 
@@ -140,7 +158,7 @@ build CMakeFiles/test_command_parser.dir/src/device_state.c.obj: C_COMPILER__tes
 #############################################
 # Link the executable test_command_parser.exe
 
-build test_command_parser.exe: C_EXECUTABLE_LINKER__test_command_parser_Debug CMakeFiles/test_command_parser.dir/tests/test_command_parser.c.obj CMakeFiles/test_command_parser.dir/src/command_parser.c.obj CMakeFiles/test_command_parser.dir/src/device_state.c.obj
+build test_command_parser.exe: C_EXECUTABLE_LINKER__test_command_parser_Debug CMakeFiles/test_command_parser.dir/tests/test_command_parser.c.obj CMakeFiles/test_command_parser.dir/src/command_parser.c.obj CMakeFiles/test_command_parser.dir/src/device_state.c.obj CMakeFiles/test_command_parser.dir/device_action/device_action.c.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
