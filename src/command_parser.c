@@ -9,7 +9,7 @@ command_result_t command_process(
     size_t payload_len
 )
 {
-    if(state == NULL)
+    if(state == NULL || callbacks == NULL)
     {
         return CMD_RESULT_ERROR_NULL_POINTER;
     }

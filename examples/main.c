@@ -16,7 +16,7 @@ int main(void)
     };
 
     device_state_t state;
-    device_stste_init(&state);
+    device_stste_init(&state);          // Startup state of device
 
     uint8_t led_payload[] = {1};
 

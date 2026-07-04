@@ -13,7 +13,7 @@ void device_led_set(bool on)
 
 uint16_t device_temperature_read_x10(void)
 {
-    printf("Еуьзукфегку куфв куйгуіеув\n");
+    printf("Read temperature\n");
     return 253;
 }
 

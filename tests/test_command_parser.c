@@ -9,8 +9,9 @@
 int main(void)
 {
     device_state_t state;
-    device_stste_init(&state);
+    device_stste_init(&state);  // Make default state
 
+    // Fill in callbacks
     command_callbacks_t callbacks =
     {
         .led_set = device_led_set,
@@ -29,14 +30,16 @@ int main(void)
 
     uint8_t led_on_payload[] = {1};
     //result = command_process(&state, CMD_LED_SET, led_on_payload, sizeof(led_on_payload));
-    result = command_process(&state, &callbacks, CMD_LED_SET, led_on_payload, sizeof(led_on_payload));
+    result = command_process(&state, &callbacks, CMD_LED_SET, 
+        led_on_payload, sizeof(led_on_payload));
     
     assert(result == CMD_RESULT_OK);
     assert(state.led_on == true);
 
     uint8_t led_off_payload[] = {0};
     //result = command_process(&state, CMD_LED_SET, led_off_payload, sizeof(led_off_payload));
-     result = command_process(&state, &callbacks, CMD_LED_SET, led_off_payload, sizeof(led_off_payload));
+     result = command_process(&state, &callbacks, CMD_LED_SET, 
+        led_off_payload, sizeof(led_off_payload));
     assert(result == CMD_RESULT_OK);
     assert(state.led_on == false);
 
